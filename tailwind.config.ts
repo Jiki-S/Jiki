@@ -48,21 +48,14 @@ export default {
                     dark: '#DCDCDC',
                     darker: '#D0D0D0',
                 },
-                success: {
-                    lighter: '#DFEFE4',
-                    light: '#C2E4CE',
-                    main: '#62AC7D',
-                    dark: '#28854A',
-                    darker: '#1F6638',
-                },
-                warning: {
+                yellow: {
                     lighter: '#F8F3E8',
                     light: '#F0E4CB',
                     main: '#D99031',
                     dark: '#99752E',
                     darker: '#664E1F',
                 },
-                error: {
+                red: {
                     lighter: '#F7E5E1',
                     light: '#EFC7BE',
                     main: '#CC4728',

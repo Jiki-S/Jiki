@@ -15,20 +15,40 @@ export default function Header() {
       <div className="flex items-center justify-center px-12 w-full">
         <div className="flex items-center justify-center w-1/2 gap-2">
           <div className="w-12 h-12">
-            <JikiLogo alt="Jiki Logo" className="w-full h-full" />
+            <JikiLogo
+              alt="Jiki Logo"
+              className="w-full h-full"
+            />
           </div>
           <p className="text-3xl text-black">Jiki</p>
         </div>
 
         <div className="flex items-center justify-center w-1/2 gap-4 text-base text-black">
-          <Button.Root styleButton="primary" colorVariant="dark">
+          <Button.Root
+            styleButton="primary"
+            colorVariant="dark"
+          >
             <Button.Icon icon={IoPersonAdd} />
-            <Button.Content text="Registrar-se" size='text-lg'/>
+            <Button.Content
+              text="Registrar-se"
+              size="text-lg"
+            />
           </Button.Root>
 
-          <Button.Root styleButton="primary" colorVariant="light" className='flex gap-2 rounded-xl border-2 border-primary-main px-4 py-2'>
-            <Button.Icon icon={IoPersonSharp} color='fill-primary-darker'/>
-            <Button.Content text="Login" size='text-lg' color='text-primary-darker'/>
+          <Button.Root
+            styleButton="primary"
+            colorVariant="light"
+            className="flex gap-2 rounded-xl border-2 border-primary-main px-4 py-2"
+          >
+            <Button.Icon
+              icon={IoPersonSharp}
+              color="fill-primary-darker"
+            />
+            <Button.Content
+              text="Login"
+              size="text-lg"
+              color="text-primary-darker"
+            />
           </Button.Root>
 
           <h2 className="cursor-pointer text-xl">Preços</h2>
@@ -39,7 +59,11 @@ export default function Header() {
 
       <div className="flex-none gap-2 sm:hidden">
         <div className="dropdown dropdown-end">
-          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost btn-circle"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
