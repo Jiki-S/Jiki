@@ -1,0 +1,58 @@
+export const ButtonStyle = {
+  primary: {
+    lighter: 'bg-blue-100 hover:bg-blue-200',
+    light: 'bg-blue-300 hover:bg-blue-400',
+    main: 'bg-blue-500 hover:bg-blue-600',
+    dark: 'bg-blue-700 hover:bg-blue-800',
+    darker: 'bg-blue-900 hover:bg-blue-900',
+  },
+  secondary: {
+    lighter: 'bg-green-100 hover:bg-green-200',
+    light: 'bg-green-300 hover:bg-green-400',
+    main: 'bg-green-500 hover:bg-green-600',
+    dark: 'bg-green-700 hover:bg-green-800',
+    darker: 'bg-green-900 hover:bg-green-900',
+  },
+  terciary: {
+    lighter: 'bg-yellow-100 hover:bg-yellow-200',
+    light: 'bg-yellow-300 hover:bg-yellow-400',
+    main: 'bg-yellow-500 hover:bg-yellow-600',
+    dark: 'bg-yellow-700 hover:bg-yellow-800',
+    darker: 'bg-yellow-900 hover:bg-yellow-900',
+  },
+  gray: {
+    lighter: 'bg-gray-100 hover:bg-gray-200',
+    light: 'bg-gray-300 hover:bg-gray-400',
+    main: 'bg-gray-500 hover:bg-gray-600',
+    dark: 'bg-gray-700 hover:bg-gray-800',
+    darker: 'bg-gray-900 hover:bg-gray-900',
+  },
+  white: {
+    lighter: 'bg-white hover:bg-gray-100',
+    light: 'bg-gray-50 hover:bg-gray-100',
+    main: 'bg-gray-200 hover:bg-gray-300',
+    dark: 'bg-gray-300 hover:bg-gray-400',
+    darker: 'bg-gray-400 hover:bg-gray-500',
+  },
+  green: {
+    lighter: 'bg-teal-100 hover:bg-teal-200',
+    light: 'bg-teal-300 hover:bg-teal-400',
+    main: 'bg-teal-500 hover:bg-teal-600',
+    dark: 'bg-teal-700 hover:bg-teal-800',
+    darker: 'bg-teal-900 hover:bg-teal-900',
+  },
+  yellow: {
+    lighter: 'bg-yellow-100 hover:bg-yellow-200',
+    light: 'bg-yellow-300 hover:bg-yellow-400',
+    main: 'bg-yellow-500 hover:bg-yellow-600',
+    dark: 'bg-yellow-700 hover:bg-yellow-800',
+    darker: 'bg-yellow-900 hover:bg-yellow-900',
+  },
+  red: {
+    lighter: 'bg-red-100 hover:bg-red-200',
+    light: 'bg-red-300 hover:bg-red-400',
+    main: 'bg-red-500 hover:bg-red-600',
+    dark: 'bg-red-700 hover:bg-red-800',
+    darker: 'bg-red-900 hover:bg-red-900',
+  },
+};
