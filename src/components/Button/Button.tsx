@@ -46,7 +46,7 @@ export function Button({
     primary: {
       lighter: 'bg-primary-lighter hover:bg-primary-darker text-black hover:text-white-light border-none',
       light: 'bg-primary-light hover:bg-primary-dark text-black hover:text-white-lighter border-none',
-      main: 'bg-primary-main hover:bg-primary-main text-black hover:text-white-main border-none',
+      main: 'bg-primary-dark hover:bg-primary-main text-white-lighter hover:text-white-lighter border-none',
       dark: 'bg-primary-dark hover:bg-primary-lighter text-white-main hover:text-black border-none',
       darker: 'bg-primary-darker hover:bg-primary-light text-white-main hover:text-black border-none',
     },
