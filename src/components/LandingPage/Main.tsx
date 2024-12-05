@@ -49,13 +49,13 @@ export default function Main() {
       </div>
       <section className="flex w-full h-[120vh] bg-primary-main rounded-[50px] overflow-y-auto">
         <div className="flex items-center justify-center">
-          {/* Conteúdo adicional da segunda seção */}
+          {/* Conteúdo */}
           <div className="p-6"></div>
         </div>
       </section>
       <section className="flex w-full h-[120vh] bg-white-main rounded-[50px] overflow-y-auto">
         <div className="flex items-center justify-center">
-          {/* Conteúdo adicional da segunda seção */}
+          {/* Conteúdo */}
           <div className="p-6"></div>
         </div>
       </section>
