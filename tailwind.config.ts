@@ -10,6 +10,7 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
+                'gradient-random': 'linear-gradient(to right, #4A90E2 10%, #39B57E 45%, #FF8C42 110%)',
                 //'login': "url('/assets/images/image-login/login-desktop.png')",
             },
             colors: {

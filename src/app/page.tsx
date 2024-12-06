@@ -1,16 +1,17 @@
 'use client';
 
 import React from 'react';
-import Main from '../components/LandingPage/Main';
-import Header from '@/components/LandingPage/Header';
-import Footer from '../components/LandingPage/Footer';
+
+import Main from "@/app/components/Main";
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Main/>
+            <Footer/>
+        </>
+    );
 }
